@@ -1,0 +1,38 @@
+{
+  "name": "climate-guard-backend",
+  "version": "1.0.0",
+  "description": "Climate Guard Weather Monitoring System - Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup-db": "node setup-db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "climate",
+    "monitoring",
+    "government",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "Climate Guard Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
